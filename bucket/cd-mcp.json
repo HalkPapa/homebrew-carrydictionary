@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "description": "CarryDictionary MCP server: expose your local dictionary to any MCP/AI client (beta on Windows)",
+  "homepage": "https://github.com/HalkPapa/homebrew-carrydictionary",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v0.1.0/cd_mcp-0.1.0-windows-x86_64.zip",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "bin": "bin\\cd_mcp.exe",
+  "notes": [
+    "cd_mcp is an MCP stdio server. Register it with an MCP client and set CD_DB_PATH.",
+    "Claude Code (.mcp.json): {\"mcpServers\":{\"carry-dictionary\":{\"command\":\"cd_mcp\",\"env\":{\"CD_DB_PATH\":\"C:/path/to/cd_core.sqlite\"}}}}",
+    "If CD_DB_PATH is unset it defaults to %APPDATA%\\CarryDictionary\\cd_core.sqlite",
+    "Windows support is BETA."
+  ],
+  "checkver": {
+    "github": "https://github.com/HalkPapa/homebrew-carrydictionary",
+    "regex": "cd_mcp-v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v$version/cd_mcp-$version-windows-x86_64.zip"
+      }
+    }
+  }
+}
