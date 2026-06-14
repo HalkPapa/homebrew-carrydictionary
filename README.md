@@ -20,8 +20,12 @@ CarryDictionary 本体のソースは **非公開** です。ここには **form
 
 ```bash
 brew tap halkpapa/carrydictionary
+brew trust halkpapa/carrydictionary   # Homebrew 6.0+ は外部 tap の信頼が必要
 brew install cd-mcp
 ```
+
+> `brew trust` は Homebrew 6.0 から導入された、外部 tap の formula を読み込む前の
+> 信頼ステップです（5.x では不要）。対話実行ならインストール時に確認が出ることもあります。
 
 ### Windows（Scoop・ベータ）
 
