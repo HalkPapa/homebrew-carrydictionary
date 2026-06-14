@@ -21,7 +21,7 @@ class CdMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v0.1.0/cd_mcp-0.1.0-macos-arm64.tar.gz"
-      sha256 "f5535c0feff89d0205bee9abcf3e73c54d1984b23796f1569a87b6bbfac0eed6"
+      sha256 "3d54f5fb5dfd790c3d0b9dfc5312acf51d0f4401c7a0bf4a5d198d9be6f9e5ba"
     end
 
     on_intel do
@@ -36,7 +36,7 @@ class CdMcp < Formula
     on_intel do
       # beta — filled by release CI (ubuntu runner)
       url "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v0.1.0/cd_mcp-0.1.0-linux-x86_64.tar.gz"
-      sha256 "cbaad5dca3c19b0e191290ef78e3d7ae39555971bd8056d010bcb33d62be487e"
+      sha256 "5921ad5335467cd0523362af23de3cf8edda8476f423a229727c463cb330056d"
     end
 
     on_arm do
