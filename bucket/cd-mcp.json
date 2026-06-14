@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v0.1.0/cd_mcp-0.1.0-windows-x86_64.zip",
-      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      "hash": "3ca20206115d450d6b2d9833bf76e5ade378ff6eefddd875d6c4b5dd499666e7"
     }
   },
   "bin": "bin\\cd_mcp.exe",
