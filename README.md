@@ -12,7 +12,11 @@ CarryDictionary 本体のソースは **非公開** です。ここには **form
 |---|---|
 | `cd-mcp` | CarryDictionary の MCP サーバ（`cd_mcp`）。ローカル辞書を任意の MCP/AI クライアントに公開する CLI。 |
 
-プラットフォーム状況: **macOS arm64 = 公式**、macOS x86_64 / Linux / Windows = **ベータ**。
+プラットフォーム状況: **macOS arm64 = 公式**、Linux / Windows = **ベータ**（macOS Intel は非配布）。
+
+> 🧪 **ベータ（Linux / Windows）のフィードバック歓迎。** 動いた／動かなかったの報告や不具合は
+> **[本リポジトリの Issues](https://github.com/HalkPapa/homebrew-carrydictionary/issues)** へお願いします
+> （本体ソースは非公開のため、報告はこの公開リポジトリで受け付けています）。
 
 ## インストール
 

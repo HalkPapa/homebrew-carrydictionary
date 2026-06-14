@@ -75,6 +75,9 @@ class CdMcp < Formula
 
       Note: macOS arm64 is the official target; Linux / Windows(Scoop) are beta.
       macOS Intel is not published — use Apple Silicon or build from source.
+
+      Beta feedback / bug reports welcome (Linux & Windows especially):
+      https://github.com/HalkPapa/homebrew-carrydictionary/issues
     EOS
   end
 

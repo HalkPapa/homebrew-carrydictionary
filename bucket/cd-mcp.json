@@ -14,7 +14,8 @@
     "cd_mcp is an MCP stdio server. Register it with an MCP client and set CD_DB_PATH.",
     "Claude Code (.mcp.json): {\"mcpServers\":{\"carry-dictionary\":{\"command\":\"cd_mcp\",\"env\":{\"CD_DB_PATH\":\"C:/path/to/cd_core.sqlite\"}}}}",
     "If CD_DB_PATH is unset it defaults to %APPDATA%\\CarryDictionary\\cd_core.sqlite",
-    "Windows support is BETA."
+    "Windows support is BETA.",
+    "Beta feedback / bug reports: https://github.com/HalkPapa/homebrew-carrydictionary/issues"
   ],
   "checkver": {
     "github": "https://github.com/HalkPapa/homebrew-carrydictionary",
