@@ -8,10 +8,10 @@
 #
 # Platform support:
 #   * macOS arm64  — official, tested.
-#   * macOS x86_64 — beta (built by the release CI).
 #   * Linux x86_64 — beta (built by the release CI; Homebrew on Linux).
-# The PLACEHOLDER sha256 values below (all zeros) are overwritten by the release
-# workflow when it publishes each platform's artifact.
+#   * macOS Intel  — not published (GitHub Intel runners are deprecated/scarce).
+# The PLACEHOLDER sha256 (zeros) for Linux is overwritten by the release workflow
+# when it publishes that artifact.
 class CdMcp < Formula
   desc "CarryDictionary MCP server: expose your local dictionary to any MCP/AI client"
   homepage "https://github.com/HalkPapa/homebrew-carrydictionary"
@@ -25,9 +25,10 @@ class CdMcp < Formula
     end
 
     on_intel do
-      # beta — filled by release CI (macos-13 runner)
-      url "https://github.com/HalkPapa/homebrew-carrydictionary/releases/download/cd_mcp-v0.1.0/cd_mcp-0.1.0-macos-x86_64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      # macOS Intel build is not published (GitHub's Intel mac CI runners are
+      # deprecated/scarce). Use Apple Silicon, or build from source.
+      odie "cd_mcp: a macOS x86_64 (Intel) build is not published. " \
+           "Use Apple Silicon, or build from source."
     end
   end
 
@@ -72,7 +73,8 @@ class CdMcp < Formula
         macOS: ~/Library/Application Support/CarryDictionary/cd_core.sqlite
         Linux: $XDG_DATA_HOME/CarryDictionary/cd_core.sqlite (or ~/.local/share/...)
 
-      Note: macOS arm64 is the official target; macOS x86_64 / Linux are beta.
+      Note: macOS arm64 is the official target; Linux / Windows(Scoop) are beta.
+      macOS Intel is not published — use Apple Silicon or build from source.
     EOS
   end
 
