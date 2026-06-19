@@ -16,7 +16,8 @@ class CdMcp < Formula
   desc "CarryDictionary MCP server: expose your local dictionary to any MCP/AI client"
   homepage "https://github.com/HalkPapa/homebrew-carrydictionary"
   version "0.1.0"
-  # Source is kept private; this is a personal redistribution of prebuilt binaries.
+  license "Apache-2.0"
+  # Source is kept private; the prebuilt binaries are distributed under Apache-2.0.
 
   on_macos do
     on_arm do
@@ -78,6 +79,9 @@ class CdMcp < Formula
 
       Beta feedback / bug reports welcome (Linux & Windows especially):
       https://github.com/HalkPapa/homebrew-carrydictionary/issues
+
+      Free & Apache-2.0. Like it? Support development:
+      https://github.com/sponsors/HalkPapa
     EOS
   end
 

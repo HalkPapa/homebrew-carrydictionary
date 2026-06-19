@@ -18,6 +18,8 @@ CarryDictionary 本体のソースは **非公開** です。ここには **form
 > **[本リポジトリの Issues](https://github.com/HalkPapa/homebrew-carrydictionary/issues)** へお願いします
 > （本体ソースは非公開のため、報告はこの公開リポジトリで受け付けています）。
 
+> ❤️ **無料 & Apache-2.0。** 気に入ったら [GitHub Sponsors](https://github.com/sponsors/HalkPapa) で応援を。
+
 ## インストール
 
 ### macOS / Linux（Homebrew）

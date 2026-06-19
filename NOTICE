@@ -1,0 +1,13 @@
+CarryDictionary — cd_mcp
+Copyright 2026 KochiKun
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+---
+
+Reference dictionary data that a user imports into CarryDictionary
+(e.g. JMdict via the jmdict-simplified format) is NOT part of this
+software and is licensed separately by its original authors —
+JMdict is CC BY-SA 4.0 © Electronic Dictionary Research and
+Development Group (EDRDG). Attribution / share-alike obligations
+apply to that data, not to this software.
